@@ -1,6 +1,6 @@
 # Order Summary Card
 
-[![Live Site](https://img.shields.io/badge/Live%20Site-Click%20Here-blue?style=for-the-badge)](https://your-live-link.com)
+[![Live Site](https://img.shields.io/badge/Live%20Site-Click%20Here-blue?style=for-the-badge)](https://order-summary-component-two-eta.vercel.app/)
 [![Frontend Mentor](https://img.shields.io/badge/Frontend%20Mentor-Order%20Summary%20Card-blueviolet?style=for-the-badge)](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj)
 [![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)](https://github.com/yourusername/order-summary-card)
 
@@ -10,7 +10,7 @@ This is my solution to the [Order summary card challenge on Frontend Mentor](htt
 
 ## 🚀 Live Demo
 
-Check out the live version here: [**Your Live Site Link**](https://your-live-link.com)
+Check out the live version here: [**Frontend Mentor | Order summary card**](https://order-summary-component-two-eta.vercel.app/)
 
 ## 🛠️ Built With
 
