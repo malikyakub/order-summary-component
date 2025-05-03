@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --mobile-width: 375px;
+    --desktop-width: 1440px;
+
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+
+    --font-family: "Red Hat Display", sans-serif;
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
+    --font-weight-black: 900;
+
+    --font-size-body: 16px;
+
+    --spacing-xs: 4px;
+    --spacing-sm: 8px;
+    --spacing-md: 16px;
+    --spacing-lg: 24px;
+    --spacing-xl: 32px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--pale-blue);
+    height: 100dvh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-family);
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 400px;
+}
+
+.text {
+    padding: 40px;
+    text-align: center;
+}
+
+.text h1 {
+    font-weight: var(--font-weight-black);
+    color: var(--dark-blue);
+}
+
+.text p {
+    font-size: var(--font-size-body);
+    color: var(--desaturated-blue);
+    font-weight: var(--font-weight-medium);
+}
+
+.plan {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: var(--very-pale-blue);
+    border-radius: 10px;
+    margin-block: 20px;
+}
+
+.plan .plan-text {
+    flex-grow: 1;
+    text-align: start;
+    margin-inline: 15px;
+}
+
+.plan a {
+    text-decoration: 1px solid underline var(--bright-blue);
+    color: var(--bright-blue);
+    font-weight: var(--font-weight-bold);
+}
+
+.pattern {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    top: 0;
+}
+
+button {
+    padding: 8px;
+    border-radius: 10px;
+    font-weight: var(--font-weight-bold);
+    width: 100%;
+    border: none;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-block: 8px;
+}
+
+.proceed-btn {
+    background-color: var(--bright-blue);
+    color: #fff;
+    box-shadow: 2px 5px 5px #3829e03a;
+}
+
+.cancel-btn {
+    color: var(--desaturated-blue);
+    background-color: none;
+}
+
+footer {
+    position: absolute;
+    bottom: 40px;
+    font-weight: var(--font-weight-medium);
+}
+
+footer a {
+    text-decoration: 1px solid underline var(--bright-blue);
+    color: var(--bright-blue);
+    font-weight: var(--font-weight-bold);
+}
+
+
+
+@media (min-width: 1440px) {}
